@@ -4,7 +4,7 @@ PREFIX obo: <http://purl.obolibrary.org/obo/>
 
 SELECT DISTINCT ?municipality ?confirmed_cases ?reported_date {
 
-VALUES ?municipality {<http://www.wikidata.org/entity/Q10006>}
+#VALUES ?municipality {<http://www.wikidata.org/entity/Q10006>}
     
     # GET reported covid cases per municipality
     ?covid_dataset a covid19:Dataset;
